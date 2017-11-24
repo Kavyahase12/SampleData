@@ -8,20 +8,73 @@
 
 /* Begin PBXBuildFile section */
 		E076DB3F1E8E16A8002A77D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB3E1E8E16A8002A77D0 /* AppDelegate.swift */; };
-		E076DB411E8E16A8002A77D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB401E8E16A8002A77D0 /* ViewController.swift */; };
-		E076DB441E8E16A8002A77D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E076DB421E8E16A8002A77D0 /* Main.storyboard */; };
 		E076DB461E8E16A8002A77D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E076DB451E8E16A8002A77D0 /* Assets.xcassets */; };
 		E076DB491E8E16A8002A77D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E076DB471E8E16A8002A77D0 /* LaunchScreen.storyboard */; };
+		E076DB511E8E16D0002A77D0 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB501E8E16D0002A77D0 /* ScannerViewController.swift */; };
+		E076DB531E8E16E7002A77D0 /* ConnectViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB521E8E16E7002A77D0 /* ConnectViewController1.swift */; };
+		E076DB591E8E174B002A77D0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB581E8E174B002A77D0 /* Logger.swift */; };
+		E076DB5B1E8E175B002A77D0 /* ServiceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB5A1E8E175B002A77D0 /* ServiceIdentifier.swift */; };
+		E076DB8C1E8E1855002A77D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB741E8E1855002A77D0 /* QuartzCore.framework */; };
+		E076DB8D1E8E1855002A77D0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB751E8E1855002A77D0 /* Accelerate.framework */; };
+		E076DB8E1E8E1855002A77D0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB761E8E1855002A77D0 /* CoreBluetooth.framework */; };
+		E076DB8F1E8E1855002A77D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB771E8E1855002A77D0 /* Foundation.framework */; };
+		E076DB901E8E1855002A77D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB781E8E1855002A77D0 /* CoreGraphics.framework */; };
+		E076DB911E8E1855002A77D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E076DB791E8E1855002A77D0 /* UIKit.framework */; };
+		E076DB931E8E1D09002A77D0 /* ScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB921E8E1D09002A77D0 /* ScannerDelegate.swift */; };
+		E076DB951E8E1D33002A77D0 /* ScannedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB941E8E1D33002A77D0 /* ScannedPeripheral.swift */; };
+		E076DB971E8E1D5E002A77D0 /* BluetoothDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB961E8E1D5E002A77D0 /* BluetoothDelegate.swift */; };
+		E076DB991E8E1E07002A77D0 /* NORData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076DB981E8E1E07002A77D0 /* NORData.swift */; };
+		E0AAAB421EA9DE350000C7DA /* Californian_FB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0AAAB411EA9DE350000C7DA /* Californian_FB.ttf */; };
+		E0C7E7B01EA8CEC300547018 /* SpeedSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E7AF1EA8CEC300547018 /* SpeedSettingViewController.swift */; };
+		E0C7E7B21EA8DEFD00547018 /* FaultDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7E7B11EA8DEFD00547018 /* FaultDetectionViewController.swift */; };
+		E0CBBC0A1EA7730600EAB032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CBBC091EA7730600EAB032 /* Main.storyboard */; };
+		E0CBC1231E8E25EE00BB6E28 /* Signal_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC1181E8E25EE00BB6E28 /* Signal_0.png */; };
+		E0CBC1241E8E25EE00BB6E28 /* Signal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC1191E8E25EE00BB6E28 /* Signal_2.png */; };
+		E0CBC1251E8E25EE00BB6E28 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC11A1E8E25EE00BB6E28 /* Contents.json */; };
+		E0CBC1261E8E25EE00BB6E28 /* Signal_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC11B1E8E25EE00BB6E28 /* Signal_3.png */; };
+		E0CBC1271E8E25EE00BB6E28 /* Signal_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC11C1E8E25EE00BB6E28 /* Signal_3@2x.png */; };
+		E0CBC1281E8E25EE00BB6E28 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC11E1E8E25EE00BB6E28 /* Contents.json */; };
+		E0CBC1291E8E25EE00BB6E28 /* Signal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC11F1E8E25EE00BB6E28 /* Signal_1.png */; };
+		E0CBC12A1E8E25EE00BB6E28 /* Signal_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBC1201E8E25EE00BB6E28 /* Signal_1@2x.png */; };
+		E0D9CD991EA1FF2F00E004F4 /* scannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D9CD971EA1FF2F00E004F4 /* scannerTableViewCell.swift */; };
+		E0D9CD9A1EA1FF2F00E004F4 /* scannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D9CD981EA1FF2F00E004F4 /* scannerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E076DB3B1E8E16A8002A77D0 /* EPOCHBLE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPOCHBLE1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076DB3E1E8E16A8002A77D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E076DB401E8E16A8002A77D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E076DB431E8E16A8002A77D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E076DB451E8E16A8002A77D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E076DB481E8E16A8002A77D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E076DB4A1E8E16A8002A77D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E076DB501E8E16D0002A77D0 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		E076DB521E8E16E7002A77D0 /* ConnectViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController1.swift; sourceTree = "<group>"; };
+		E076DB581E8E174B002A77D0 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E076DB5A1E8E175B002A77D0 /* ServiceIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceIdentifier.swift; sourceTree = "<group>"; };
+		E076DB741E8E1855002A77D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E076DB751E8E1855002A77D0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E076DB761E8E1855002A77D0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E076DB771E8E1855002A77D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E076DB781E8E1855002A77D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E076DB791E8E1855002A77D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E076DB921E8E1D09002A77D0 /* ScannerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerDelegate.swift; sourceTree = "<group>"; };
+		E076DB941E8E1D33002A77D0 /* ScannedPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPeripheral.swift; sourceTree = "<group>"; };
+		E076DB961E8E1D5E002A77D0 /* BluetoothDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDelegate.swift; sourceTree = "<group>"; };
+		E076DB981E8E1E07002A77D0 /* NORData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NORData.swift; sourceTree = "<group>"; };
+		E0A9CE521E96230500AA5FEF /* EPOCHBLE1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPOCHBLE1-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0AAAB411EA9DE350000C7DA /* Californian_FB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Californian_FB.ttf; sourceTree = "<group>"; };
+		E0C7E7AF1EA8CEC300547018 /* SpeedSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedSettingViewController.swift; sourceTree = "<group>"; };
+		E0C7E7B11EA8DEFD00547018 /* FaultDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaultDetectionViewController.swift; sourceTree = "<group>"; };
+		E0CBBC091EA7730600EAB032 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E0CBC1181E8E25EE00BB6E28 /* Signal_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_0.png; sourceTree = "<group>"; };
+		E0CBC1191E8E25EE00BB6E28 /* Signal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_2.png; sourceTree = "<group>"; };
+		E0CBC11A1E8E25EE00BB6E28 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		E0CBC11B1E8E25EE00BB6E28 /* Signal_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_3.png; sourceTree = "<group>"; };
+		E0CBC11C1E8E25EE00BB6E28 /* Signal_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal_3@2x.png"; sourceTree = "<group>"; };
+		E0CBC11E1E8E25EE00BB6E28 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		E0CBC11F1E8E25EE00BB6E28 /* Signal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_1.png; sourceTree = "<group>"; };
+		E0CBC1201E8E25EE00BB6E28 /* Signal_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signal_1@2x.png"; sourceTree = "<group>"; };
+		E0D9CD971EA1FF2F00E004F4 /* scannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scannerTableViewCell.swift; sourceTree = "<group>"; };
+		E0D9CD981EA1FF2F00E004F4 /* scannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scannerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E076DB8C1E8E1855002A77D0 /* QuartzCore.framework in Frameworks */,
+				E076DB911E8E1855002A77D0 /* UIKit.framework in Frameworks */,
+				E076DB8E1E8E1855002A77D0 /* CoreBluetooth.framework in Frameworks */,
+				E076DB8D1E8E1855002A77D0 /* Accelerate.framework in Frameworks */,
+				E076DB901E8E1855002A77D0 /* CoreGraphics.framework in Frameworks */,
+				E076DB8F1E8E1855002A77D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +97,22 @@
 		E076DB321E8E16A8002A77D0 = {
 			isa = PBXGroup;
 			children = (
+				E0AAAB411EA9DE350000C7DA /* Californian_FB.ttf */,
 				E076DB3D1E8E16A8002A77D0 /* EPOCHBLE1 */,
+				E076DB5A1E8E175B002A77D0 /* ServiceIdentifier.swift */,
+				E0A9CE521E96230500AA5FEF /* EPOCHBLE1-Bridging-Header.h */,
+				E076DB581E8E174B002A77D0 /* Logger.swift */,
+				E0D9CD971EA1FF2F00E004F4 /* scannerTableViewCell.swift */,
+				E0D9CD981EA1FF2F00E004F4 /* scannerTableViewCell.xib */,
+				E076DB961E8E1D5E002A77D0 /* BluetoothDelegate.swift */,
+				E076DB921E8E1D09002A77D0 /* ScannerDelegate.swift */,
+				E076DB941E8E1D33002A77D0 /* ScannedPeripheral.swift */,
+				E076DB501E8E16D0002A77D0 /* ScannerViewController.swift */,
+				E076DB521E8E16E7002A77D0 /* ConnectViewController1.swift */,
+				E0C7E7AF1EA8CEC300547018 /* SpeedSettingViewController.swift */,
+				E0C7E7B11EA8DEFD00547018 /* FaultDetectionViewController.swift */,
+				E0CBC1221E8E25EE00BB6E28 /* Images */,
+				E076DB7A1E8E1855002A77D0 /* Frameworks */,
 				E076DB3C1E8E16A8002A77D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,14 +129,60 @@
 			isa = PBXGroup;
 			children = (
 				E076DB3E1E8E16A8002A77D0 /* AppDelegate.swift */,
-				E076DB401E8E16A8002A77D0 /* ViewController.swift */,
-				E076DB421E8E16A8002A77D0 /* Main.storyboard */,
 				E076DB451E8E16A8002A77D0 /* Assets.xcassets */,
 				E076DB471E8E16A8002A77D0 /* LaunchScreen.storyboard */,
+				E0CBBC091EA7730600EAB032 /* Main.storyboard */,
 				E076DB4A1E8E16A8002A77D0 /* Info.plist */,
+				E076DB981E8E1E07002A77D0 /* NORData.swift */,
 			);
 			path = EPOCHBLE1;
 			sourceTree = "<group>";
+		};
+		E076DB7A1E8E1855002A77D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E076DB741E8E1855002A77D0 /* QuartzCore.framework */,
+				E076DB751E8E1855002A77D0 /* Accelerate.framework */,
+				E076DB761E8E1855002A77D0 /* CoreBluetooth.framework */,
+				E076DB771E8E1855002A77D0 /* Foundation.framework */,
+				E076DB781E8E1855002A77D0 /* CoreGraphics.framework */,
+				E076DB791E8E1855002A77D0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = "/Users/macdevelopers/Desktop/EPOCH Daily Backup/29:3:2017/EPOCHBLE/EPOCHBLE/../../../Downloads/IOS-nRF-Toolbox-master-7";
+			sourceTree = "<absolute>";
+		};
+		E0CBC11D1E8E25EE00BB6E28 /* Signal_3.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBC11A1E8E25EE00BB6E28 /* Contents.json */,
+				E0CBC11B1E8E25EE00BB6E28 /* Signal_3.png */,
+				E0CBC11C1E8E25EE00BB6E28 /* Signal_3@2x.png */,
+			);
+			path = Signal_3.imageset;
+			sourceTree = "<group>";
+		};
+		E0CBC1211E8E25EE00BB6E28 /* Signal_1.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBC11E1E8E25EE00BB6E28 /* Contents.json */,
+				E0CBC11F1E8E25EE00BB6E28 /* Signal_1.png */,
+				E0CBC1201E8E25EE00BB6E28 /* Signal_1@2x.png */,
+			);
+			path = Signal_1.imageset;
+			sourceTree = "<group>";
+		};
+		E0CBC1221E8E25EE00BB6E28 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBC1181E8E25EE00BB6E28 /* Signal_0.png */,
+				E0CBC1191E8E25EE00BB6E28 /* Signal_2.png */,
+				E0CBC11D1E8E25EE00BB6E28 /* Signal_3.imageset */,
+				E0CBC1211E8E25EE00BB6E28 /* Signal_1.imageset */,
+			);
+			name = Images;
+			path = "/Users/macdevelopers/Desktop/EPOCHBLE1/../Back up/2:11:2016/Connect Single Device/TableViewController 3 4 3 2/TableViewController";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -97,6 +217,7 @@
 					E076DB3A1E8E16A8002A77D0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 97C3V6KWH5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,9 +245,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CBC1241E8E25EE00BB6E28 /* Signal_2.png in Resources */,
+				E0CBC1231E8E25EE00BB6E28 /* Signal_0.png in Resources */,
+				E0D9CD9A1EA1FF2F00E004F4 /* scannerTableViewCell.xib in Resources */,
+				E0CBBC0A1EA7730600EAB032 /* Main.storyboard in Resources */,
+				E0CBC1281E8E25EE00BB6E28 /* Contents.json in Resources */,
+				E0CBC1261E8E25EE00BB6E28 /* Signal_3.png in Resources */,
 				E076DB491E8E16A8002A77D0 /* LaunchScreen.storyboard in Resources */,
+				E0CBC1291E8E25EE00BB6E28 /* Signal_1.png in Resources */,
+				E0AAAB421EA9DE350000C7DA /* Californian_FB.ttf in Resources */,
+				E0CBC12A1E8E25EE00BB6E28 /* Signal_1@2x.png in Resources */,
+				E0CBC1271E8E25EE00BB6E28 /* Signal_3@2x.png in Resources */,
 				E076DB461E8E16A8002A77D0 /* Assets.xcassets in Resources */,
-				E076DB441E8E16A8002A77D0 /* Main.storyboard in Resources */,
+				E0CBC1251E8E25EE00BB6E28 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +268,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E076DB411E8E16A8002A77D0 /* ViewController.swift in Sources */,
+				E076DB531E8E16E7002A77D0 /* ConnectViewController1.swift in Sources */,
+				E076DB591E8E174B002A77D0 /* Logger.swift in Sources */,
 				E076DB3F1E8E16A8002A77D0 /* AppDelegate.swift in Sources */,
+				E076DB5B1E8E175B002A77D0 /* ServiceIdentifier.swift in Sources */,
+				E076DB951E8E1D33002A77D0 /* ScannedPeripheral.swift in Sources */,
+				E076DB511E8E16D0002A77D0 /* ScannerViewController.swift in Sources */,
+				E076DB931E8E1D09002A77D0 /* ScannerDelegate.swift in Sources */,
+				E0C7E7B21EA8DEFD00547018 /* FaultDetectionViewController.swift in Sources */,
+				E076DB971E8E1D5E002A77D0 /* BluetoothDelegate.swift in Sources */,
+				E0D9CD991EA1FF2F00E004F4 /* scannerTableViewCell.swift in Sources */,
+				E0C7E7B01EA8CEC300547018 /* SpeedSettingViewController.swift in Sources */,
+				E076DB991E8E1E07002A77D0 /* NORData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E076DB421E8E16A8002A77D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E076DB431E8E16A8002A77D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E076DB471E8E16A8002A77D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,11 +394,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 97C3V6KWH5;
 				INFOPLIST_FILE = EPOCHBLE1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Falco-eMotors.EPOCHBLE1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EPOCHBLE1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +411,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 97C3V6KWH5;
 				INFOPLIST_FILE = EPOCHBLE1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Falco-eMotors.EPOCHBLE1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EPOCHBLE1-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +442,7 @@
 				E076DB4F1E8E16A8002A77D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
